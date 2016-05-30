@@ -15,7 +15,7 @@ public class WhenTestingPrototypePattern {
 
     Employees emps;
     Employees empsNew;
-    Employees empsNew2;
+    Employees empsNew1;
     List<String> list;
     List<String> list1;
 
@@ -30,7 +30,7 @@ public class WhenTestingPrototypePattern {
         list = empsNew.getEmpList();
         list.add("AbhishekNew");
 
-        list1 = empsNew2.getEmpList();
+        list1 = empsNew1.getEmpList();
         list.remove("Abhishek");
     }
 
